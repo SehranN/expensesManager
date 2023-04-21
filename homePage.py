@@ -52,7 +52,7 @@ from random import choice
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Somsoc1retupmoc",
+    passwd="*****",
     auth_plugin='mysql_native_password'
 
 )
@@ -62,7 +62,7 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS Expenses")
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Somsoc1retupmoc",
+    passwd="*****",
     auth_plugin='mysql_native_password',
     database='Expenses'
 )
